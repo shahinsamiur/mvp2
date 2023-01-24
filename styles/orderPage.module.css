@@ -1,0 +1,135 @@
+
+
+.card{
+    position: relative;
+    width: 99%;
+    height: 96px;
+    left: 3px;
+    background: #ffffff;
+   border:1px solid rgb(187, 187, 187);
+   margin-top: 2px;
+}
+
+.Image{
+    position: relative;
+    width: 10%;
+    height: 90%;
+    display: inline-block;
+    /* left: 56px;
+    top: 432px; */
+
+    /* background: url(.jpg), #550707; */
+}
+
+
+
+
+.head{
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    left:07px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+    color: #000000;
+
+
+}
+
+
+.price{
+    display: inline-block;
+    position: absolute;
+    width: 164px;
+    height: 39px;
+    top:20px;
+    left:98px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+
+
+
+    .card{
+        position: relative;
+        width: 99%;
+        height: 96px;
+        left: 3px;
+        background: #ffffff;
+       border:1px solid rgb(187, 187, 187);
+       margin-top: 2px;
+    }
+    
+    .Image{
+        position: relative;
+        width: 20%;
+        height: 90%;
+        display: inline-block;
+        /* left: 56px;
+        top: 432px; */
+    
+        /* background: url(.jpg), #550707; */
+    }
+    
+    
+    
+    
+    .head{
+        display: inline-block;
+        position: relative;
+        top: -40px;
+        left:07px;
+        width:75%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    /* background: #000000; */
+        color: #000000;
+    
+    
+    }
+    
+    
+    .price{
+        display: inline-block;
+        position: absolute;
+        width: 164px;
+        height: 39px;
+        top:30px;
+        left:80px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 39px;
+        color: #000000;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

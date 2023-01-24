@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400&display=swap');
+ 
+
+
+
+
+
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 170px;
+    height: 60px;
+    margin-top: 50px;
+    position: relative;
+    left:-50px;
+}
+
+
+
+.form{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 392px;
+    left: -50px;
+    top:10px;
+    background: #F6F6F6;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), -0px -0px 4px rgba(0, 0, 0, 0.25);
+    padding:10px;
+
+}
+
+
+.header{
+    display: block;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.inputTitle{
+    margin-top: 5px;
+    margin-left:8px;
+   
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+
+
+.Input{
+    display: block;
+    width: 90%;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding:5px;
+    padding-left:8px;
+   font-size:17px;
+   border: 1px solid #aaaaaa;
+   margin-left: 6px;
+}
+
+
+
+
+.p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #626262;
+    margin-left:8px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+
+
+.NeedHelp{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1570C4;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-left:8px;
+}
+
+.NeedHelp:hover{
+    text-decoration: underline;
+}
+
+.SignIn{
+ 
+    width: 90%;
+    height: 32px;
+    background: #F3CD6F;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    color: #000000;
+    border:none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000000;
+    margin-left:8px;
+    
+}
+
+.NewTo{
+    /* position: absolute; */
+    margin-top:10px;
+    left: 559px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(5, 5, 5, 0.49);
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.createAmazon{
+
+    width: 92%;
+    height: 34px;
+    margin-top:-10px;
+    margin-left:8px;
+    display: block;
+    box-sizing: border-box;
+    background: #FFFDFD;
+    border: 1px solid rgba(0, 0, 0, 0.94);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.94);
+    border: 1px solid rgba(0, 0, 0, 0.49);    
+    cursor: pointer;
+
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.error{
+    color:red;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .form{
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 372px;
+        left: 10px;
+        top:10px;
+        background: #F6F6F6;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), -0px -0px 4px rgba(0, 0, 0, 0.25);
+        padding:10px;
+    
+    }
+
+
+
+    .logo{
+        display: block;
+        margin: auto;
+        width: 160px;
+        height: 40px;
+        margin-top: 50px;
+        position: relative;
+        left:-5px;
+    }
+    
+
+
+
+
+
+    .header{
+        display: block;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        color: #000000;
+    }
+    
+    .inputTitle{
+        margin-top: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 15px;
+        color: #000000;
+    
+    }
+    
+    
+    
+    .Input{
+        display: block;
+        width: 90%;
+        height: 15px;
+        border: none;
+        outline: none;
+        padding:5px;
+        padding-left:8px;
+       font-size:17px;
+       border: 1px solid #aaaaaa;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .p{
+        margin-top: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 12px;
+        color: #626262;
+    
+    }
+    
+    
+    
+    
+    
+    .NeedHelp{
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #1570C4;
+        margin-top: -2px;
+    }
+    
+    .NeedHelp:hover{
+        text-decoration: underline;
+    }
+    
+    .SignIn{
+     
+        width: 90%;
+        height: 25px;
+        background: #F3CD6F;
+        border-radius: 7px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 15px;
+        color: #000000;
+        border:none;
+        cursor: pointer;
+        font-size: 24px;
+        color: #000000;
+    }
+    
+    .NewTo{
+     
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 13px;
+        color: rgba(5, 5, 5, 0.49);
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    
+    
+    .createAmazon{
+        position: absolute;
+        width: 92%;
+        height: 34px;
+        display: block;
+        background: #FFFDFD;
+        border: 1px solid rgba(0, 0, 0, 0.94);
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.94);
+        border: 1px solid rgba(0, 0, 0, 0.49);    
+        cursor: pointer;
+    
+    }
+    
+
+
+
+
+}
+

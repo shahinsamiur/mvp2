@@ -1,0 +1,277 @@
+.amazonLogo1Icon {
+    position: absolute;
+    top: 53px;
+    left: 50px;
+    width: 185px;
+    height: 56px;
+    overflow: hidden;
+  }
+
+
+  .blance {
+    position: relative;
+    top: -166px;
+    left: 70px;
+    font-size:28px;
+    z-index:99;
+    display: inline;
+  }
+
+.OrderNo{
+    position: relative;
+    top: -166px;
+    left: 140px;
+    font-size:19px;
+    z-index:99;
+    display: inline;
+}
+
+
+
+.cost{
+    position: relative;
+    top: -70px;
+    left: -300px;
+    font-size:24px;
+    z-index:99;
+    display: inline;
+}
+
+
+
+
+.profit{
+    position: relative;
+    top: -73px;
+    left: -180px;
+    font-size:24px;
+    z-index:99;
+    display: inline;
+}
+
+.remaining{
+    position: relative;
+    top: -130px;
+    left: -520px;
+    font-size:16px;
+    width:1500px;
+    z-index:99;
+    display: inline;
+    color: #727272;
+
+}
+
+
+
+
+
+
+  .card1{
+    position: absolute;
+    top: -170px;
+    left: 40px;
+    background-color: rgb(234, 232, 232);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 923px;
+    height: 182px;
+  }
+
+
+
+
+
+  .widthbutton {
+    position: absolute;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: -60px;
+    left: 760px;
+    width: 156px;
+    height: 42px;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #f90;
+    border-radius: 25px;
+    box-shadow: 1px -1px 4px transparent inset;
+    color: #f1f1f1;
+    font-size:18px;
+  }
+ 
+
+
+
+  .card{
+    position: relative;
+    top: 312px;
+    left: 50px;
+    width: 823px;
+    height: 442px;
+  }
+
+
+
+  .line {
+    position: relative;
+    top: -110px;
+    left: -45px;
+    border-top: 1px solid rgba(90, 89, 89, 0.4);
+    box-sizing: border-box;
+    width: 1119px;
+    height: 1px;
+  }
+
+.orderlist{
+  position: relative;
+  top: -110px;
+  left: 90px;
+    width: 923px;
+    height: auto;
+/* background: #762c2c; */
+}
+
+
+  .withdrawPage {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height:779px;
+    overflow: auto;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .amazonLogo1Icon {
+        position: absolute;
+        top: 23px;
+        left: 40%;
+        width: 22%;
+        height: 30px;
+        overflow: hidden;
+      }
+    
+    
+      .blance {
+        position: relative;
+        top: -180px;
+        left: -10px;
+        font-size:22px;
+        z-index:99;
+        display: inline;
+      }
+    
+    .OrderNo{
+        position: relative;
+        top: -35%;
+        left: -230px;
+        font-size:13px;
+        z-index:99;
+        display: inline;
+    }
+    
+    
+    
+    .cost{
+        position: relative;
+        top: -100px;
+        left: -300px;
+        font-size:17px;
+        z-index:99;
+        display: inline;
+    }
+    
+    
+    
+    
+    .profit{
+        position: relative;
+        top: -100px;
+        left: -260px;
+        font-size:17px;
+        z-index:99;
+        display: inline;
+    }
+    
+
+    
+    
+      .card1{
+        position: relative;
+        top: -210px;
+        left: -20px;
+        background-color: rgb(234, 232, 232);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        width: 50%;
+        height: 30%;
+      }
+    
+    
+      .widthbutton {
+        position: absolute;
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        top: -103px;
+        left: 32%;
+        width: 13%;
+        height: 32px;
+        cursor: pointer;
+        border: 0;
+        padding: 0;
+        background-color: #f90;
+        border-radius: 15px;
+        box-shadow: 1px -1px 4px transparent inset;
+        color: #f1f1f1;
+        font-size:14px;
+      }
+     
+    
+    
+    
+      .card{
+        position: relative;
+        top: 250px;
+        left: 29px;
+        width: 190%;
+        height: 442px;
+      }
+    
+    
+    
+      .line {
+        position: relative;
+        top: -30%;
+        left: -45px;
+        border-top: 1px solid rgba(90, 89, 89, 0.4);
+        box-sizing: border-box;
+        width: 1119px;
+        height: 1px;
+      }
+    
+    .orderlist{
+        position: relative;
+        top: -30%;
+        left: 11px;
+        width: 93%;
+        height: auto;
+        /* background: #762c2c; */
+    }
+    
+    
+      .withdrawPage {
+        position: relative;
+        background-color: var(--color-white);
+        width: 100%;
+        height:779px;
+        overflow: auto;
+        text-align: left;
+        overflow: hidden;
+      }
+
+
+
+  }

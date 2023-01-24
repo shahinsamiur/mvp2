@@ -1,0 +1,453 @@
+.amazonLogo1Icon {
+    position: absolute;
+    top: 53px;
+    left: 50px;
+    width: 185px;
+    height: 56px;
+    overflow: hidden;
+  }
+  .profilepicIcon {
+    position: absolute;
+    top: 55px;
+    left: 1054px;
+    width: 34px;
+    height: 34px;
+    color: #676767;
+  }
+  .username {
+    position: absolute;
+    top: 67px;
+    left: 1090px;
+    font-size:20px;
+  }
+  .blance {
+    position: absolute;
+    top: 146px;
+    left: 100px;
+    font-size:32px;
+  }
+
+  .topmessage{
+    position: relative;
+    top: 206px;
+    left: 30%;
+    font-size:20px;
+    font-size: var(--font-size-base);
+    color:#676767;
+    display: inline-block;
+    width: 749px;
+  
+  }
+
+  .card1{
+    position: absolute;
+    top: -180px;
+    left: 40px;
+    background-color: rgb(234, 232, 232);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1123px;
+    height: 282px;
+  }
+
+
+
+  .oldAddress {
+    position: relative;
+    top: -130px;
+    left: 280px;
+    font-size: 18px;
+  }
+
+  .usdtbox {
+    position: absolute;
+    top: -132px;
+    left: 405px;
+    border-radius: 13px;
+    background-color: #f1f1f1;
+    width: 500px;
+    height: 30px;
+   
+  }
+  .usdtaddress {
+    position: relative;
+    top: 6px;
+    left: 42px;
+    color: #676767;
+    display: inline-block;
+    width: 563px;
+  }
+
+  
+
+  .savebutton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 42px;
+    left: 110px;
+    width: 156px;
+    height: 42px;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #f90;
+    border-radius: 25px;
+    box-shadow: 1px -1px 4px transparent inset;
+    color: #f1f1f1;
+    font-size:18px;
+  }
+ 
+
+
+
+
+  .NewAddressInput {
+    position: relative;
+    border: 0;
+    padding:4px;
+    padding-left:14px;
+    background-color: #f1f1f1;
+    top: -95px;
+    left: 405px;
+    border-radius: 14px;
+    width: 482px;
+    height: 30px;
+    outline: none;
+    font-size:13px;
+  }
+
+
+  .NewAddress {
+    position: relative;
+    top: -69px;
+    left: 275px;
+    font-size: 18px;
+    z-index:900;
+  }
+
+
+
+  .card{
+    position: relative;
+    top: 312px;
+    left: 50px;
+    width: 823px;
+    height: 442px;
+  }
+
+  .withdrawPage {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+ height:90vh;
+    overflow: auto;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+
+.cencleButton{
+
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  top: 390px;
+    left: 55%;
+    width: 156px;
+    height: 42px;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #bc8736;
+  border-radius: 25px;
+  box-shadow: 1px -1px 4px transparent inset;
+  color: #f1f1f1;
+  font-size:13px;
+  z-index:999;
+}
+
+  
+  @media only screen and (max-width: 900px) {
+  
+  
+    .card1{
+      position: absolute;
+      top: -90px;
+      left: 40px;
+      background-color: rgb(234, 232, 232);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 1123px;
+      height: 282px;
+    }
+  
+  
+  
+  
+    .oldAddress {
+      position: relative;
+      top: -140px;
+      left:17px;
+      font-size: 13px;
+    }
+  
+    .usdtbox {
+      position: absolute;
+      top: -58px;
+      left: 405px;
+      border-radius: 13px;
+      background-color: #f1f1f1;
+      width: 500px;
+      height: 30px;
+     
+    }
+    .usdtaddress {
+      position: relative;
+      top: 6px;
+      left: 42px;
+      color: #676767;
+      display: inline-block;
+      width: 563px;
+    }
+  
+  
+  
+    .savebutton {
+      cursor: pointer;
+      border: 0;
+      padding: 0;
+      background-color: transparent;
+      position: absolute;
+      top: -30px;
+      left: 10px;
+      width: 86px;
+      height: 27px;
+      cursor: pointer;
+      border: 0;
+      padding: 0;
+      background-color: #f90;
+      border-radius: 25px;
+      box-shadow: 1px -1px 4px transparent inset;
+      color: #f1f1f1;
+      font-size:13px;
+    }
+   
+
+    
+    .Rechargeinput {
+      position: relative;
+      border: 0;
+      padding:4px;
+      padding-left:14px;
+      background-color: #f1f1f1;
+      top: -160px;
+      left: 92px;
+      border-radius: 6px;
+      width: 150px;
+      height: 20px;
+      outline: none;
+      font-size:18px;
+    }
+  
+  
+    .Rechargeamounttext {
+      position: absolute;
+      top: -100px;
+      left: -15px;
+      font-size: 13px;
+    }
+  
+  
+  
+  
+    .NewAddressInput {
+      position: relative;
+      border: 0;
+      padding:4px;
+      padding-left:14px;
+      background-color: #f1f1f1;
+      top: -145px;
+      left: 88px;
+      border-radius: 6px;
+      width: 182px;
+      height: 20px;
+      outline: none;
+      font-size:9px;
+    }
+  
+  
+    .NewAddress {
+      position: absolute;
+      top: -85px;
+      left: 8px;
+      font-size: 13px;
+    }
+  
+
+  
+
+    .amazonLogo1Icon {
+      position: absolute;
+      top: 23px;
+      left: 20px;
+      width: 30%;
+      height: 36px;
+      overflow: hidden;
+    }
+    .profilepicIcon {
+      position: absolute;
+      top: 25px;
+      left: 85%;
+      width: 24px;
+      height: 24px;
+      color: #676767;
+    }
+    .username {
+      position: absolute;
+      top: 58px;
+      left: 82%;
+      font-size:8px;
+    }
+    .blance {
+      position: absolute;
+      top: 96px;
+      left: 22px;
+      font-size:22px;
+    }
+  
+    .topmessage{
+      position: relative;
+      top: 146px;
+      left: 25%;
+      font-size:10px;
+      color:#676767;
+      display: inline-block;
+      width: 249px;
+    
+    }
+  
+    .card1{
+      position: absolute;
+      top: -160px;
+      left: -40px;
+      background-color: rgb(234, 232, 232);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 100%;
+      /* 323px */
+      height: 182px;
+      overflow: hidden;
+    }
+  
+   
+  
+    .usdtbox {
+      position: relative;
+      top: -165px;
+      left:90px;
+      border-radius: 7px;
+      background: #f1f1f1;
+      width: 23%;
+      height: 36px;
+      overflow: hidden;
+     
+    }
+    .usdtaddress {
+      position: relative;
+      top: 10px;
+      left: 7px;
+      color: #676767;
+      display: inline-block;
+      width: 23%;
+      height:30px;
+      font-size:12px;
+      /* background: #676767; */
+    }
+  
+    .addresschangemessage {
+      position: relative;
+      top: -219px; 
+      left: 25px; 
+      font-size:8px;
+      color: #474747;
+      display: inline-block;
+   
+    }
+  
+    
+
+  
+
+    
+  
+
+  
+    .card{
+      position: relative;
+      top: 312px;
+      left: 50px;
+      width: 823px;
+      height: 442px;
+    }
+  
+  
+  
+    .line {
+      position: relative;
+      top: -90.5px;
+      left: -2%;
+      border-top: 1px solid rgba(90, 89, 89, 0.4);
+      box-sizing: border-box;
+      width: 100%;
+      height: 1px;
+    }
+    .historytext {
+      position: relative;
+      top: -88px;
+      left: 25%;
+      color: #727272;
+      font-size:16px;
+    }
+    .withdrawPage {
+      position: relative;
+      background-color: var(--color-white);
+      width: 100%;
+      height:90vh;
+      overflow: auto;
+      text-align: left;
+      overflow: hidden;
+    }
+
+
+
+
+.cencleButton{
+
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 284px;
+    left: 230px;
+    width: 86px;
+    height: 27px;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: rgb(243, 196, 126);
+    border-radius: 25px;
+    box-shadow: 1px -1px 4px transparent inset;
+    color: #f1f1f1;
+    font-size:13px;
+    z-index:99;
+}
+
+
+
+
+
+
+  }
